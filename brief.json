@@ -1,0 +1,55 @@
+{
+ "slug": "jansa-shiatsu",
+ "zdroj_url": "http://petr-jansa.cz/shiatsu/",
+ "firma": "Petr Jansa – shiatsu",
+ "obor": "masáže shiatsu (zen-shiatsu)",
+ "ico": "67958966",
+ "ares": null,
+ "kontakty": {
+  "email": "Petr.Jansa@mujmail.cz",
+  "telefon": "+420 777 586 245"
+ },
+ "logo": null,
+ "barvy": {
+  "css_promenne": {},
+  "z_css": [
+   "#c42027"
+  ],
+  "z_loga": [],
+  "theme_color": null,
+  "doporucene": [
+   "#c42027"
+  ]
+ },
+ "fotky": [
+  {
+   "soubor": "podklady/foto/foto-01.jpg",
+   "url": "http://petr-jansa.cz/shiatsu/index.jpg",
+   "sirka": 800,
+   "vyska": 547,
+   "alt": "Petr Jansa - ošetÅení Shiatsu"
+  }
+ ],
+ "fakta": [
+  "texty, ceník, IČ 67958966, nejsem plátce DPH, roky kariéry: petr-jansa.cz/shiatsu (kontakt, shiatsu, ja .html)",
+  "Petr nemá pevný harmonogram, shiatsu i u klienta doma po dohodě"
+ ],
+ "chybi": [
+  "adresa nové provozovny (stará Černokostelecká 2792/42 je neaktuální a na web nejde)",
+  "větší/novější fotky (staré jsou 300–800 px)",
+  "logo, pokud nějaké chce",
+  "anglická verze (starý web ji má)"
+ ],
+ "popis_webu": "SHIATSU - Petr Jansa, masáÅ¾e shiatsu v prostorách A Centra v Praze 8, KarlínÄ",
+ "mesto": "Praha",
+ "ton": "klidný, věcný, osobní; text klienta zachován",
+ "brand": {
+  "logo": "nemá (název textem)",
+  "barvy": [
+   "#c42027",
+   "#f9f1cc",
+   "#FFEF51 (starý web)"
+  ],
+  "zdroj": "style.css petr-jansa.cz/shiatsu"
+ }
+}

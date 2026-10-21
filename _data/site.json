@@ -1,0 +1,51 @@
+{
+  "slug": "jansa-shiatsu",
+  "nazev": "Petr Jansa – shiatsu",
+  "url": "https://webhunter-navrhy.github.io/jansa-shiatsu/",
+  "base": "/jansa-shiatsu/",
+  "lang": "cs",
+  "popis": "Shiatsu masáže s Petrem Jansou: japonská masáž přes oblečení na měkké podložce, zen-shiatsu, ceník a objednání.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "og-zdroj.jpg",
+  "logo": "",
+  "theme_color": "#c42027",
+  "typ": "HealthAndBeautyBusiness",
+  "ico": "67958966",
+  "kontakt": {
+    "email": "Petr.Jansa@mujmail.cz",
+    "telefon": "+420 777 586 245",
+    "adresa": {
+      "ulice": "",
+      "psc": "",
+      "mesto": "Praha",
+      "zeme": "CZ"
+    }
+  },
+  "oteviraci_doba": [],
+  "sameas": [],
+  "cenove_rozpeti": "900–1100 Kč",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Objednávka shiatsu z webu"
+  },
+  "nav": [
+    {
+      "text": "O shiatsu",
+      "href": "#shiatsu"
+    },
+    {
+      "text": "Ceník",
+      "href": "#cenik"
+    },
+    {
+      "text": "O mně",
+      "href": "#petr"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#kontakt"
+    }
+  ]
+}

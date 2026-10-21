@@ -1,0 +1,17 @@
+{
+  "znamka": 8,
+  "slabiny": [
+    "Mobil 390, první obrazovka (m_00, scroll 0): hlavička je i v tomto kole vidět jen jako spodní proužek (asi 17 px) a štítek „ZEN-SHIATSU · PRAHA“ nad h1 chybí, i když na dalších obrazovkách je hlavička v pořádku (jeden řádek, 44 px, název celý). Nejspíš jde o posun visual viewportu nebo o nedokončený smooth scroll v QA. Ověřit na skutečném scrollY=0 a v QA před snímkem nastavit html{scroll-behavior:auto}. Pokud se to stane i v reálném telefonu, scroll po načtení obnovit na 0 (history.scrollRestoration='manual').",
+    "Co je shiatsu, první odstavec na PC i mobilu: zápis „Shia-atsu znamená v překladu ‚tlak prsty‘“ zůstal. Japonsky je to shi (prst) + atsu (tlak), tedy „Shi-atsu“. Zkontrolovat proti petr-jansa.cz/shiatsu/shiatsu.html a překlep opravit. Pokud ho tam klient má, opravit ho i tak a zmínit to ve shrnutí.",
+    "PC 1440, pás Zen-shiatsu (buňky 2–3) a O mně (buňka 4–5): po zmenšení fotek na 232 a 208 px zůstal levý sloupec mřížky 0.9fr / 15rem široký. Fotka v něm visí nahoře, pod ní je prázdná krémová plocha a nadpis „Zen-shiatsu“ začíná až u pravého okraje. Mřížku .dva.obracene změnit na 15rem 1fr (jako #petr), aby text začínal hned vedle fotky. Pás pak bude kratší a vyvážený."
+  ],
+  "zavazne": [],
+  "silne": [
+    "Brand drží: klientova červená #c42027 na krémové #f8f1dd z jeho starého webu, název textem vlevo v hlavičce (logo nemá) a jen jeho vlastní fotky z futonu.",
+    "Minulé výtky jsou opravené: na mobilu se načítá hero-800 a fotky Zen-shiatsu a Petra jsou omezené na 232 a 208 px bez roztažení. Text na PC má 17 px a sloupec 62ch. Mobilní hlavička je jednořádková, 44 px vysoká a název je celý.",
+    "Ceník jako „futon“ s červenými linkami je přehledný, ceny za setkání i celkem jsou z briefu a poznámka o neplátci DPH nechybí. Nic vymyšleného tu není, osa 2000–2008 vychází z jeho textu.",
+    "Konverze je jasná: v hero je CTA Objednat shiatsu a Ceník, v kontaktu velký telefon, e-mail, formulář a poctivá věta o chybějící adrese provozovny. QA nehlásí přetečení na žádné šířce a přenese se jen 0,3 MB."
+  ],
+  "verdikt": "Všechny tři minulé výtky jsou opravené a nová závažná vada se neobjevila. Klidný web v klientově brandu, který rozumně pracuje i s malými starými fotkami, se dá poslat. Před odesláním ještě opravit „Shia-atsu“ a ověřit první mobilní obrazovku.",
+  "_hash": "7f03c03c8eca4ccfd5b6592e2ef2197e7098d81a"
+}
